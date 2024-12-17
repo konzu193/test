@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めてのウェブサイト    </title>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+</style>
+</head>
+<body>
+    <div class="header">
+    <h1>北海道大図鑑</h1>
+</div>
+<div class="main1">
+    <h2>まずはジャンケン！</h2>
+    <div>
+        <button type="button" onclick='janken("ぐー")'>ぐー</button>
+        <button type="button" onclick='janken("ちょき")'>ちょき</button>
+        <button type="button" onclick='janken("ぱー")'>ぱー</button>
+        <!--ここに結果を表示させたい-->
+        <div id ="janken">
+            <p id="jankenResult"></p>
+        </div>
+        
+    </div>
+    <h3>北海道について知りたい項目を下から選んで下さい</h3>
+
+    
+        <div class="main2">
+<ul>
+    <li id="baseball">179市町村</li>
+    <li>食</li>
+    <li>観光</li>
+    <li>歴史</li>
+</ul>
+        </div>
+        <div class="footer">
+            <a href="https://www.amazon.co.jp" target="_blank">
+                <img src="./image/book.jpg" alt="本のタイトル　ＩＷＯＮの正体" width="200">
+            </a>
+            <p>公式サイトは<a href="https://www.amazon.co.jp" target="_blank">こちら</a></p>
+        </div>
+</body>
+</html>
